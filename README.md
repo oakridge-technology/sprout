@@ -10,7 +10,7 @@
 
 ###### Notes:
 
-Group tasks by a @class declaration, when documention a subset of commands.
+Group tasks by a @class declaration, when documenting a subset of commands.
 
 When generating docs, escape tasks with a dot by wrapping them in quotes.
 ```
