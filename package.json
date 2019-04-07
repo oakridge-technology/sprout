@@ -13,6 +13,7 @@
     "js-yaml": "^3.11.0",
     "lodash": "^4.17.10",
     "moment": "^2.22.1",
+    "randomstring": "^1.1.5",
     "yargs": "^11.0.0"
   },
   "devDependencies": {

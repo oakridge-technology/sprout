@@ -1,0 +1,15 @@
+source:
+  host: "<%= host %>"
+  port: "<%= port %>"
+  root: "<%= root %>"
+  password: "<%= password %>"
+  restart: "always"
+  users:
+    - username: "<%= user %>"
+      password: "<%= password %>"
+      databases:
+        - "<%= database %>"
+  schemas:
+    - schema: "<%= database %>/schema.sql"
+      data: "<%= database %>/data.sql"
+
