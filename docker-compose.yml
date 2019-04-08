@@ -9,6 +9,7 @@ services:
     image: "mysql:5.7"
     volumes:
       - "./data:/var/lib/mysql"
+      - "./mysqld.cnf:/etc/mysql/mysql.conf.d/mysqld.cnf"
     ports:
       - "3306:3306"
 
